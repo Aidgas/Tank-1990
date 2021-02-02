@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="app_state" displayName="app_state" projectFiles="true">
+      <itemPath>app_state/appstate.h</itemPath>
+      <itemPath>app_state/game.cpp</itemPath>
+      <itemPath>app_state/game.h</itemPath>
+      <itemPath>app_state/menu.cpp</itemPath>
+      <itemPath>app_state/menu.h</itemPath>
+      <itemPath>app_state/scores.cpp</itemPath>
+      <itemPath>app_state/scores.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="engine" displayName="engine" projectFiles="true">
+      <itemPath>engine/engine.cpp</itemPath>
+      <itemPath>engine/engine.h</itemPath>
+      <itemPath>engine/renderer.cpp</itemPath>
+      <itemPath>engine/renderer.h</itemPath>
+      <itemPath>engine/spriteconfig.cpp</itemPath>
+      <itemPath>engine/spriteconfig.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="objects" displayName="objects" projectFiles="true">
+      <itemPath>objects/bonus.cpp</itemPath>
+      <itemPath>objects/bonus.h</itemPath>
+      <itemPath>objects/brick.cpp</itemPath>
+      <itemPath>objects/brick.h</itemPath>
+      <itemPath>objects/bullet.cpp</itemPath>
+      <itemPath>objects/bullet.h</itemPath>
+      <itemPath>objects/eagle.cpp</itemPath>
+      <itemPath>objects/eagle.h</itemPath>
+      <itemPath>objects/enemy.cpp</itemPath>
+      <itemPath>objects/enemy.h</itemPath>
+      <itemPath>objects/object.cpp</itemPath>
+      <itemPath>objects/object.h</itemPath>
+      <itemPath>objects/player.cpp</itemPath>
+      <itemPath>objects/player.h</itemPath>
+      <itemPath>objects/tank.cpp</itemPath>
+      <itemPath>objects/tank.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>app.cpp</itemPath>
+    <itemPath>appconfig.cpp</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>app_state</Elem>
+    <Elem>engine</Elem>
+    <Elem>objects</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="app.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/appstate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app_state/game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app_state/menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app_state/scores.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/scores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="appconfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/renderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/spriteconfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/spriteconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/bonus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/bonus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/brick.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/brick.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/bullet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/bullet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/eagle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/eagle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/enemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/enemy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/tank.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/tank.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-O2</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>-lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="app.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/appstate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app_state/game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app_state/menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="app_state/scores.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="app_state/scores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="appconfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/renderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/spriteconfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/spriteconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/bonus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/bonus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/brick.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/brick.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/bullet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/bullet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/eagle.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/eagle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/enemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/enemy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="objects/tank.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objects/tank.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
